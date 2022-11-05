@@ -1,0 +1,5 @@
+LoadModule apache_module_demo_module modules/mod_apache_module_demo.so
+
+<Location /apache_module_demo>
+         SetHandler apache_module_demo
+ </Location>
